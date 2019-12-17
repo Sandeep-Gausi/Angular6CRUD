@@ -49,5 +49,8 @@ export class CustomerService {
   deleteCustomer($key: string) {
     this.customerList.remove($key);
   }
+  reviewCustomer(){
+  console.log('sandy');
+  }
 }
 
